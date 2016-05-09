@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="utf-8")
+    title Type in real time
+    script(src="https://code.jquery.com/jquery-1.12.3.js"
+    integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
+    crossorigin="anonymous")
+    script(src="https://cdn.socket.io/socket.io-1.4.5.js")
+    script(src="/assets/js/emiter.js?1")
+body
+    textarea(placeholder="Mensaje a emitir").text
+    #status
+    .viwersCount
