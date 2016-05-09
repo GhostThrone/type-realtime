@@ -1,1 +1,1 @@
-Type real time using node js express and socket
+Type real time using node js express and socket.io
